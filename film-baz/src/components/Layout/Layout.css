@@ -1,0 +1,135 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(180, 180, 180);
+}
+.header-div {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative;
+  top: 0%; */
+  /* bottom: 50px;   */
+
+  width: 100%;
+  height: 30px;
+  padding-block: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image_nav{
+  background-image: url("/public/img/images.png");
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+/* background-image: linear-gradient(rgb(0, 153, 255), rgb(152, 152, 152)); */
+.header-div p{
+  /* position: relative;
+  right: 450px;
+  top: 13px; */
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.header-div p:hover{
+  color: rgb(86,200,229);
+  font-size: 21px;
+  transition: 0.6s;
+  /* border-bottom: 1px solid rgb(255, 255, 255);     */
+}
+
+.link-header:hover{
+color:rgb(86,200,229);
+font-size: 21px;
+transition: 0.6s;
+opacity: 2px;
+}
+.search-box{
+  width: 250px;
+  height: 50px;
+  background-color:black;
+  border: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white; 
+  position: relative;
+  right: -80px;
+}
+.search-box::placeholder{
+  color: #fff;
+}
+.header-icon{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  /* background-image: linear-gradient(#f57b8c,#ecb1bf); */
+   font-size: 50px;
+  position:relative;
+  bottom: 10px;
+ 
+  /* right:150px; */
+
+}
+.header-icon:hover{
+  color: rgb(86,200,229);
+  font-size: 60px;
+  transition: 0.3s;
+}
+
+.footer-div {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(56, 56, 56)) ;
+  width:100%;
+  height: 70px;
+
+  /* position: relative; */
+  /* top: 600px; */
+  /* top: 50px; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.link-footer{
+  
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 40%;
+    padding-block: 35px;
+    position: relative;
+    right: 350px;
+}
+.link-header {
+  font-size: large;
+  text-decoration: none;
+  color:#fff;
+}
+.footerContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.socailContainer {
+  display: flex;
+  width: 10%; 
+  padding-block: 35px;
+  justify-content: space-around;
+  list-style: none;
+   position: relative;
+  /* top: 30px; */ 
+  text-decoration: none;
+  font-size: 25px;
+  right: 170px;
+  color: rgb(255, 255, 255);
+}
+.socailContainer a:hover{
+  /* background-color: rgb(86,200,229); */
+  transition: 0.4s;
+  font-size: 30px;
+  color: rgb(86,200,229);
+}

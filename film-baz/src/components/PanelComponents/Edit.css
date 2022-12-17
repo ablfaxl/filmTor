@@ -1,0 +1,28 @@
+/* .editContainer{
+    width: 100%;
+    height: 100%;
+} */
+.editForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 350px;
+}
+.editForm input{
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);    
+    outline: none;
+}
+.editForm button{
+    width: 370px;
+}
+.editForm button:hover{
+    cursor: pointer;
+    background-color: #9c9c9c;
+}

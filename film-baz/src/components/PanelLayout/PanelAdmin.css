@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* color: blue; */
+}
+.contextContainer {
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  text-align: right;
+
+  /* padding-top: 100px; */
+  position: relative;
+  left: 300px;
+}
+.table-box {
+  width: 900px;
+  height: 300px;
+  padding: 50px;
+  /* border: 1px solid red; */
+  /* padding-left: 150px; */
+}
+.SideBarContainer {
+  position: fixed;
+  text-decoration: none;
+  padding: 10px;
+  width: 20%;
+  height: 100%;
+  /* color: rgb(136, 136, 136); */
+  background-color: transparent;
+  background-color: rgb(10, 172, 126);
+}
+/* Link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+} */
+.Container1 {
+  display: flex;
+  flex-direction: row;
+}

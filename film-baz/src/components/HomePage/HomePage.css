@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+.movie-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(rgb(117, 147, 167), rgb(152, 152, 152)); */
+
+}
+.homePage-img {       
+  width: 350px;
+  height: 226px;
+  margin-top: 20px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+.homePage-img:hover {
+  
+
+  box-shadow: 5px 0px 5px 5px rgb(217, 217, 217);
+  /* border-sh */
+  width: 400px;
+  height: 230px;
+
+  transition: 0.4s;
+}
+.item-movie {
+  font-size: large;
+}
+.movieDetail {
+  font-size: small;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.pageHandler{
+  display: flex;
+  flex-direction: row;
+}
+.selected {
+  cursor: pointer;
+  background-color: rgb(57, 57, 57);
+}
+/* یه ادامه مطلب بزارم که کلیک کرد ادامه تکست بیاد see more */ ;

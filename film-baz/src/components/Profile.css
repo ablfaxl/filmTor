@@ -1,0 +1,23 @@
+.profile-container {
+  display: flex;
+  padding: auto;
+  margin: auto;
+  /* background-color: red; */
+}
+.videoTrailer {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 250px;
+  top: 35px;
+  background-image: url(https://s6.uupload.ir/files/videobackground_vc42.jpg);
+  /* background-color: rgb(255, 179, 179); */
+}
+.profile-text {
+  display: flex;
+  margin-left: 15px;
+  width: 650px;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* background-color: rgb(47, 0, 255); */
+}

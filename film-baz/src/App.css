@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  background-color: rgb(170, 170, 170);
+}
+Link {
+  text-decoration: none;
+}
+.navbar {
+  width: 500px;
+}
+
+.link-div {
+  display: flex;
+  justify-content: center;
+}

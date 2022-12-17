@@ -1,0 +1,18 @@
+.img-404 {
+  /* background: url(img/404.jpg) no-repeat center center fixed; */
+  object-fit: cover;
+  position: relative;
+  padding-block: 50px;
+  left: 470px;
+  width: 650px;
+}
+
+.notfound {
+
+  background-color: #fffcff;
+  height: 100vh;
+}
+.notfound h1{
+  color: #ffbf00;
+  outline: black 1px;
+}
